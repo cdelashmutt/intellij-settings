@@ -1,0 +1,12 @@
+<code_scheme name="Default (1)">
+  <option name="PACKAGES_TO_USE_IMPORT_ON_DEMAND">
+    <value>
+      <package name="java.awt" withSubpackages="false" static="false" />
+      <package name="javax.swing" withSubpackages="false" static="false" />
+      <package name="org.hamcrest.Matchers" withSubpackages="true" static="true" />
+      <package name="org.springframework.test.web.servlet.request.MockMvcRequestBuilders" withSubpackages="true" static="true" />
+      <package name="org.springframework.test.web.servlet.result.MockMvcResultHandlers" withSubpackages="true" static="true" />
+      <package name="org.springframework.test.web.servlet.result.MockMvcResultMatchers" withSubpackages="true" static="true" />
+    </value>
+  </option>
+</code_scheme>
