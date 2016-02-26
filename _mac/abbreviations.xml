@@ -1,0 +1,9 @@
+<application>
+  <component name="AbbreviationManager">
+    <abbreviations>
+      <action id="ObtainPermanentTicket">
+        <abbreviation name="opl" />
+      </action>
+    </abbreviations>
+  </component>
+</application>
