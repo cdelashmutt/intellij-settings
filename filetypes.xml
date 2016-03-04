@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="16">
     <extensionMap>
       <mapping ext="yml" type="PLAIN_TEXT" />
+      <removed_mapping ext="yml" type="SnakeYAML" />
     </extensionMap>
   </component>
 </application>
