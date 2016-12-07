@@ -7,25 +7,31 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="sbsdr" value="compile('org.springframework.boot:spring-boot-starter-data-rest')" toReformat="true" toShortenFQNames="true">
+  <template name="sbsdr" value="compile('org.springframework.boot:spring-boot-starter-data-rest')" description="Spring Boot Starter Data REST" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="GROOVY_EXPRESSION" value="true" />
       <option name="GROOVY_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="h2" value="runtime('com.h2database:h2')" toReformat="true" toShortenFQNames="true">
+  <template name="h2" value="runtime('com.h2database:h2')" description="H2 Dependency" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="GROOVY" value="true" />
       <option name="GROOVY_DECLARATION" value="false" />
     </context>
   </template>
-  <template name="mysql" value="runtime('mysql:mysql-connector-java')" toReformat="true" toShortenFQNames="true">
+  <template name="mysql" value="runtime('mysql:mysql-connector-java')" description="MySQL Dependency" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="GROOVY" value="true" />
       <option name="GROOVY_DECLARATION" value="false" />
     </context>
   </template>
-  <template name="sdsdj" value="compile(&quot;org.springframework.boot:spring-boot-starter-data-jpa&quot;)" description="Spring Boot Starter Data JPA" toReformat="true" toShortenFQNames="true">
+  <template name="sbsdj" value="compile(&quot;org.springframework.boot:spring-boot-starter-data-jpa&quot;)" description="Spring Boot Starter Data JPA" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY_EXPRESSION" value="true" />
+      <option name="GROOVY_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="sbsa" value="compile(&quot;org.springframework.boot:spring-boot-starter-actuator&quot;)" description="Spring Boot Starter Actuator" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="GROOVY_EXPRESSION" value="true" />
       <option name="GROOVY_STATEMENT" value="true" />
