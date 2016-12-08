@@ -37,4 +37,17 @@
       <option name="GROOVY_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="sjhda" value="spring.jpa.hibernate.ddl-auto=update" description="Set schema to auto update on startup" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="Python" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>
