@@ -1,0 +1,53 @@
+<templateSet group="user">
+  <template name="rm" value="&#9;@org.springframework.web.bind.annotation.RequestMapping(&quot;$path$&quot;)&#10;&#9;public org.springframework.http.ResponseEntity&lt;java.lang.String&gt; $methodname$()&#10;&#9;{&#10;&#9;&#9;return org.springframework.http.ResponseEntity.ok(&quot;$end$&quot;);&#10;&#9;}" description="A simple controller method" toReformat="true" toShortenFQNames="true">
+    <variable name="path" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="methodname" expression="&quot;home&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="sbsdr" value="compile('org.springframework.boot:spring-boot-starter-data-rest')" description="Spring Boot Starter Data REST" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY_EXPRESSION" value="true" />
+      <option name="GROOVY_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="h2" value="runtime('com.h2database:h2')" description="H2 Dependency" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+      <option name="GROOVY_DECLARATION" value="false" />
+    </context>
+  </template>
+  <template name="mysql" value="runtime('mysql:mysql-connector-java')" description="MySQL Dependency" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+      <option name="GROOVY_DECLARATION" value="false" />
+    </context>
+  </template>
+  <template name="sbsdj" value="compile(&quot;org.springframework.boot:spring-boot-starter-data-jpa&quot;)" description="Spring Boot Starter Data JPA" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY_EXPRESSION" value="true" />
+      <option name="GROOVY_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="sbsa" value="compile(&quot;org.springframework.boot:spring-boot-starter-actuator&quot;)" description="Spring Boot Starter Actuator" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY_EXPRESSION" value="true" />
+      <option name="GROOVY_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="sjhda" value="spring.jpa.hibernate.ddl-auto=update" description="Set schema to auto update on startup" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JSON" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="Python" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+</templateSet>
