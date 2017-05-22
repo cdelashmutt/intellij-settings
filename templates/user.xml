@@ -62,4 +62,5 @@
   </template>
   <template name="spring-cloud-boms" value="mavenBom 'org.springframework.cloud:spring-cloud-dependencies:Camden.SR7'&#10;mavenBom 'io.pivotal.spring.cloud:spring-cloud-services-dependencies:1.4.1.RELEASE'" description="Spring Cloud BOM imports" toReformat="false" toShortenFQNames="true" />
   <template name="scs-config-client" value="compile('io.pivotal.spring.cloud:spring-cloud-services-starter-config-client')" description="SCS Config-Client-Starter" toReformat="false" toShortenFQNames="true" />
+  <template name="scs-registry-starter" value="compile('io.pivotal.spring.cloud:spring-cloud-services-starter-service-registry')" toReformat="false" toShortenFQNames="true" />
 </templateSet>
