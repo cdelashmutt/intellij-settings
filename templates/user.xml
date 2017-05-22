@@ -60,4 +60,14 @@
       <option name="GROOVY" value="true" />
     </context>
   </template>
+  <template name="spring-repos" value="maven { url &quot;https://repo.spring.io/plugins-release/&quot; }&#10;maven { url &quot;https://repo.spring.io/libs-release/&quot; }&#10;" description="Add the release and plugin-release repos" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="dep-management-plugin" value="classpath(&quot;io.spring.gradle:dependency-management-plugin:0.6.0.RELEASE&quot;)" description="Adds the dependency management plugin" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
 </templateSet>
