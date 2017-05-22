@@ -50,4 +50,14 @@
       <option name="XML" value="false" />
     </context>
   </template>
+  <template name="git-props" value="id &quot;com.gorylenko.gradle-git-properties&quot; version &quot;1.4.17&quot;" description="Creates a git.properties file" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="filter-application-yml" value="filesMatching(&quot;application.yml&quot;) {&#10;    expand(project: project)&#10;}" description="Filters the application.yml for property replacements" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
 </templateSet>
