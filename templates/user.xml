@@ -70,12 +70,12 @@
       <option name="GROOVY" value="true" />
     </context>
   </template>
-  <template name="scs-registry-starter" value="compile('io.pivotal.spring.cloud:spring-cloud-services-starter-service-registry')" toReformat="false" toShortenFQNames="true">
+  <template name="scs-registry-starter" value="compile('io.pivotal.spring.cloud:spring-cloud-services-starter-service-registry')" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="GROOVY" value="true" />
     </context>
   </template>
-  <template name="scs-circuit-breaker" value="compile('io.pivotal.spring.cloud:spring-cloud-services-starter-circuit-breaker')" toReformat="false" toShortenFQNames="true">
+  <template name="scs-circuit-breaker" value="compile('io.pivotal.spring.cloud:spring-cloud-services-starter-circuit-breaker')" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="GROOVY" value="true" />
     </context>
