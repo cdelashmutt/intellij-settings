@@ -145,4 +145,9 @@
       <option name="XML" value="false" />
     </context>
   </template>
+  <template name="feign-request-mapping" value="@RequestMapping(method= RequestMethod.GET, value=&quot;/cities&quot;, consumes=&quot;application/hal+json&quot;)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
