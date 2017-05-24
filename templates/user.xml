@@ -150,4 +150,14 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="feign-city-client" value="@FeignClient(&quot;cloud-native-spring&quot;)&#10;public interface CityClient {&#10;&#10;&#9;@RequestMapping(method= RequestMethod.GET, value=&quot;/cities&quot;, consumes=&quot;application/hal+json&quot;)&#10;&#9;Resources&lt;City&gt; getCities();&#10;}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="city-client-fallback" value="@Component&#10;public class CityClientFallback implements CityClient {&#10;&#9;@Override&#10;&#9;public Resources&lt;City&gt; getCities() {&#10;&#9;&#9;return new Resources(Collections.EMPTY_LIST);&#10;&#9;}&#10;}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
