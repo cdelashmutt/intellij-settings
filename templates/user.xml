@@ -132,4 +132,17 @@
       <option name="XML" value="false" />
     </context>
   </template>
+  <template name="trust-certs" value="TRUST_CERTS: api.cf.grogscave.net" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JSON" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="Python" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
 </templateSet>
