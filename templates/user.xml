@@ -55,12 +55,12 @@
       <option name="GROOVY" value="true" />
     </context>
   </template>
-  <template name="filter-application-yml" value="filesMatching(&quot;application.yml&quot;) {&#10;    expand(project: project)&#10;}" description="Filters the application.yml for property replacements" toReformat="false" toShortenFQNames="true">
+  <template name="filter-application-yml" value="processResources {&#10;&#9;filesMatching(&quot;application.yml&quot;) {&#10;&#9;&#9;expand(project: project)&#10;&#9;}&#10;}" description="Filters the application.yml for property replacements" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="GROOVY" value="true" />
     </context>
   </template>
-  <template name="spring-cloud-boms" value="mavenBom 'org.springframework.cloud:spring-cloud-dependencies:Camden.SR7'&#10;mavenBom 'io.pivotal.spring.cloud:spring-cloud-services-dependencies:1.4.1.RELEASE'" description="Spring Cloud BOM imports" toReformat="false" toShortenFQNames="true">
+  <template name="scs-boms" value="mavenBom 'org.springframework.cloud:spring-cloud-dependencies:Camden.SR7'&#10;mavenBom 'io.pivotal.spring.cloud:spring-cloud-services-dependencies:1.4.1.RELEASE'" description="Spring Cloud BOM imports" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="GROOVY" value="true" />
     </context>
@@ -78,6 +78,58 @@
   <template name="scs-circuit-breaker" value="compile('io.pivotal.spring.cloud:spring-cloud-services-starter-circuit-breaker')" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="actuator-endpoints-sensitive" value="endpoints:&#10;  sensitive: false" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JSON" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="Python" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="actuator-health-security-off" value="management:&#10;  security:&#10;    enabled: false" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JSON" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="Python" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="actuator-info-buildinfo" value="info:&#10;  build:&#10;    name: ${project.name}&#10;    description: ${project.description}&#10;    version: ${project.version}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JSON" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="Python" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="actuator-cf-info" value="info:&#10;  git:&#10;    mode: full&#10;cloudfoundry:&#10;  enabled: true&#10;  skip-ssl-validation: true&#10;" toReformat="true" toShortenFQNames="false">
+    <context>
+      <option name="GROOVY" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JSON" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="Python" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
 </templateSet>
