@@ -1,0 +1,7 @@
+<templateSet group="RPI">
+  <template name="test" value="@Test&#10;public void $END$(){&#10;    &#10;}" description="A test method" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
