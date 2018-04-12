@@ -40,14 +40,14 @@
   <template name="sjhda" value="spring.jpa.hibernate.ddl-auto=update" description="Set schema to auto update on startup" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="GROOVY" value="false" />
-      <option name="OTHER" value="true" />
       <option name="HTML" value="false" />
-      <option name="Python" value="false" />
       <option name="JAVA_CODE" value="false" />
+      <option name="JSON" value="false" />
       <option name="KOTLIN" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="Python" value="false" />
       <option name="XML" value="false" />
-      <option name="JSON" value="false" />
     </context>
   </template>
   <template name="git-props" value="id &quot;com.gorylenko.gradle-git-properties&quot; version &quot;1.4.17&quot;" description="Creates a git.properties file" toReformat="false" toShortenFQNames="true">
@@ -83,66 +83,66 @@
   <template name="actuator-endpoints-sensitive" value="endpoints:&#10;  sensitive: false" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="GROOVY" value="false" />
-      <option name="OTHER" value="true" />
       <option name="HTML" value="false" />
-      <option name="Python" value="false" />
       <option name="JAVA_CODE" value="false" />
+      <option name="JSON" value="false" />
       <option name="KOTLIN" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="Python" value="false" />
       <option name="XML" value="false" />
-      <option name="JSON" value="false" />
     </context>
   </template>
   <template name="actuator-health-security-off" value="management:&#10;  security:&#10;    enabled: false" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="GROOVY" value="false" />
-      <option name="OTHER" value="true" />
       <option name="HTML" value="false" />
-      <option name="Python" value="false" />
       <option name="JAVA_CODE" value="false" />
+      <option name="JSON" value="false" />
       <option name="KOTLIN" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="Python" value="false" />
       <option name="XML" value="false" />
-      <option name="JSON" value="false" />
     </context>
   </template>
   <template name="actuator-info-buildinfo" value="info:&#10;  build:&#10;    name: ${project.name}&#10;    description: ${project.description}&#10;    version: ${project.version}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="GROOVY" value="false" />
-      <option name="OTHER" value="true" />
       <option name="HTML" value="false" />
-      <option name="Python" value="false" />
       <option name="JAVA_CODE" value="false" />
+      <option name="JSON" value="false" />
       <option name="KOTLIN" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="Python" value="false" />
       <option name="XML" value="false" />
-      <option name="JSON" value="false" />
     </context>
   </template>
   <template name="actuator-cf-info" value="info:&#10;  git:&#10;    mode: full&#10;cloudfoundry:&#10;  enabled: true&#10;  skip-ssl-validation: true&#10;" description="" toReformat="true" toShortenFQNames="false">
     <context>
       <option name="GROOVY" value="false" />
-      <option name="OTHER" value="true" />
       <option name="HTML" value="false" />
-      <option name="Python" value="false" />
       <option name="JAVA_CODE" value="false" />
+      <option name="JSON" value="false" />
       <option name="KOTLIN" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="Python" value="false" />
       <option name="XML" value="false" />
-      <option name="JSON" value="false" />
     </context>
   </template>
   <template name="trust-certs" value="TRUST_CERTS: api.cf.grogscave.net" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="GROOVY" value="false" />
-      <option name="OTHER" value="true" />
       <option name="HTML" value="false" />
-      <option name="Python" value="false" />
       <option name="JAVA_CODE" value="false" />
+      <option name="JSON" value="false" />
       <option name="KOTLIN" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="Python" value="false" />
       <option name="XML" value="false" />
-      <option name="JSON" value="false" />
     </context>
   </template>
   <template name="feign-request-mapping" value="@RequestMapping(method= RequestMethod.GET, value=&quot;/cities&quot;, consumes=&quot;application/hal+json&quot;)" description="" toReformat="false" toShortenFQNames="true">
